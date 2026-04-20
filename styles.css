@@ -63,6 +63,10 @@ body {
     font-weight: bold;
     white-space: nowrap; /* 强制文字不换行 */
 }
+.nav-icon {
+    margin-left: 5px;
+    vertical-align: middle;
+}
 /* 鼠标悬停变色 */
 .nav-item:hover {
     background-color:#ff9965;
@@ -130,7 +134,7 @@ body {
     max-width: 30%; 
     height: auto;
     z-index: 10;
-    transition: transform 0.4s ease; 
+    transition: transform 0.6s ease; 
     cursor: pointer; 
 }
 .geek-decoration:hover {
@@ -202,13 +206,13 @@ body {
 }
 /* 卡片图片样式 */
 .card-img {
-    width: 300px; 
-    height: 400px; 
+    width: 350px; 
+    height: auto; 
     flex-shrink: 0; /* 防止图片缩小 */
 }
 /* 卡片悬停样式 */
 .section-card {
-    transition: transform 0.4s ease; 
+    transition: transform 0.5s ease; 
 }
 /* 鼠标悬停时向上移动 */
 .section-card:hover {
@@ -216,7 +220,7 @@ body {
 }
 /* 卡片图片悬停样式 */
 .card-img {
-    transition: transform 0.4s ease; 
+    transition: transform 0.5s ease; 
 }
 /* 鼠标悬停时图片旋转 */
 .card-img:hover {
@@ -263,30 +267,30 @@ body {
 /* About Us四角装饰样式 */
 .about-decoration {
     position: absolute;
-    width: 220px; 
-    height: 100px; 
+    width: 270px; 
+    height: auto; 
     z-index: 1;
     border-width: 5px;
 }
 /* 调整四角装饰角度 */
 .about-decoration.top-right {
-    top: -20px;
-    right: -20px;
+    top: -25px;
+    right: -25px;
     transform: rotate(0);
 }
 .about-decoration.top-left {
-    top: -20px;
-    left: -20px;
+    top: -25px;
+    left: -25px;
     transform: scaleX(-1);
 }
 .about-decoration.bottom-right {
-    bottom: -20px;
-    right: -20px;
+    bottom: -25px;
+    right: -25px;
     transform: scaleY(-1);
 }
 .about-decoration.bottom-left {
-    bottom: -20px;
-    left: -20px;
+    bottom: -25px;
+    left: -25px;
     transform: scale(-1);
 }
 /* About Us标题样式 */
@@ -317,7 +321,7 @@ body {
     border: 7px solid #800080;
     border-radius: 16px;
     text-align: center;
-    transition: transform 0.3s ease; 
+    transition: transform 0.4s ease; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,7 +337,7 @@ body {
     height: auto; 
     object-fit: cover; /* 保持图片比例 */
     margin-bottom: 30px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.4s ease; 
 }
 /* 卡片图片悬停样式 */
 .about-img:hover {
@@ -363,7 +367,7 @@ body {
     width: 150px; 
     height: auto;
     z-index: 2;
-    transition: transform 0.3s ease; 
+    transition: transform 0.4s ease; 
     display: block;
 }
 .butterfly-wrapper {
@@ -393,7 +397,7 @@ body {
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
     z-index: 1000;
     margin-top: 4px;
 }
@@ -444,7 +448,7 @@ body {
     top: -30px;
     left: 1px;
     width: 320px; 
-    height: 430px;
+    height: auto;
     transform-origin: left top; /* 设置旋转中心为左上角 */
 }
 /* 右侧树样式 */
@@ -472,7 +476,7 @@ body {
 /* 标题叶子样式 */
 .contact-leaves {
     top: 40px;
-    left: 35%;
+    left: 30%;
     width: 80px; 
     height: auto;
 }
@@ -531,7 +535,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     border-radius: 12px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.4s ease, transform 0.4s ease;
     text-decoration: none;
     gap: 8px;
     align-items: center;
@@ -598,7 +602,7 @@ body {
     color: #333333;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
     display: inline-block;
     line-height: 1.9;
 }
@@ -656,7 +660,7 @@ body {
     font-size: 22px;
     text-decoration: none;
     z-index: 999;
-    transition: 0.3s;
+    transition: 0.6s;
 }
 /* 回到顶部按钮动态效果 */
 .go-top:hover {
